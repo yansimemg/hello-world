@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>表单</title>
+    </head>
+    <body>
+        <form>
+                First name: <input type="text" name="firstname"></br>
+                Last name: <input type="text" name="lastname"></br>
+                Password: <input type="password" name="pwd"></br>
+                <input type="radio" name="sex" value="male">Male</br>
+                <input type="radio" name="sex" value="female">Female</br>
+                <input type="checkbox" name="vehicle" value="Bike">I have a bilk</br>
+                <input type="checkbox" name="vehicle" value="Car">I have a car</br>
+                <select name="cars">
+                    <option value="Volvo">Volvo</option>
+                    <option value="Saab">Saab</option>
+                    <option value="fiat">fiat</option>
+                    <option value="auti" selected>auti</option>
+                </select>
+                <select>
+                    <optgroup label="Tea">
+                        <option value="red tea"> red tea</option>
+                        <option value="green tea">green tea</option>
+                    <optgroup label="coffee">
+                        <option value="black coffee">black coffee</option>
+                        <option value="white coffee">white coffee</option>
+                    </optgroup>
+                    </optgroup>
+                </select>
+            </br>
+        </br>
+                <textarea rows="10" cols="30">带有单选按钮、复选框和提交的表单form里action里写数据要传送的路径 method=“get”，若发送邮件，method=“post”，
+     enctype 属性规定在将表单数据发送到服务器之前如何对其进行编码。只有method="post" 时才使用 enctype 属性。（都在form里写）
+                </textarea></br></br>
+                <input type="button" value="hello">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    Name: <input type="text" size="30"></br>
+                    E-mail: <input type="text" size="30"></br>
+                    Date Of Birth: <input type="text" size="30"></br>
+                </fieldset>
+                First name: <input type="text"></br>
+                Last name: <input type="text"></br>
+                <input type="submit" value="提交">
+                <input type="reset" value="重置">
+        </form>
+    </body>
+</html>
